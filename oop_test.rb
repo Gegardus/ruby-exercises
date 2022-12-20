@@ -40,7 +40,7 @@ def craft_params(rand_words, snippet, pattern)
     params.join(', ')
   end
 
-  return names *2
+  return names * 2
 end
 
 def convert(snippet, phrase)
@@ -86,3 +86,6 @@ loop do
     puts "\nANSWER: %s\n\n" % answer
   end
 end
+
+# $ ruby oop_test.rb english
+# CTRL-D
