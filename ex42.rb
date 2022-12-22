@@ -32,6 +32,7 @@ class Person
   end
 
   attr_accessor :pet
+  attr_reader :name
 
   def greeting
     puts "Hello, Vahan"
@@ -72,10 +73,12 @@ satan = Cat.new("Satan")
 ## ?? mary is a Person
 mary = Person.new("Mary")
 
+puts mary.name
+
 mary.greeting
 @pet = ['Fluffy', 'Cezar']
-mary.pet = @pet
-puts mary.pet
+mary.pet = @pet # From mary get pet attribute and set it to the array
+puts mary.pet # From mary get pets
 
 ## ?? mary has-a cat named Satan
 mary.pet = satan
