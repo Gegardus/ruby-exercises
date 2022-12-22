@@ -1,1 +1,1 @@
-# ruby-template
+# EX47
