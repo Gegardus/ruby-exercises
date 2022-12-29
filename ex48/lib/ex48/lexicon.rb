@@ -1,5 +1,4 @@
-class Lexicon
-  
+class Lexicon  
   def Lexicon.scan(input)
     # Direction words: north, south, east, west, down, up, left, right, back  
     # Verbs: go, stop, kill, eat
